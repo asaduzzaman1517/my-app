@@ -1,38 +1,15 @@
-import React, { Component } from "react";
-import "./App.css";
-import Person from './Person/Person';
-// import logo from './logo.svg';
+import React from "react";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Happy Hacking</h1>
-                <Person/>
+const App = () => {
+    return (
+        <div className='container'>
+            <div className='row justify-content-center'>
+                <div className='col-6 text-center'>
+                    <h1 className='text-capitalize'>hello world!</h1>
+                </div>
             </div>
-        );
-    }
-}
+        </div>
+    );
+};
 
 export default App;
